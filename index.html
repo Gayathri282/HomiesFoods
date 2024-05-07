@@ -65,14 +65,15 @@
                         <a class="scroll nav-link link" href="#booking">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="scroll nav-link link" href="#food">Our Products</a>
-                    </li>
+                        <a class="scroll nav-link link" href="#cakes">Cakes</a>
+                    </li> 
                 </ul>
                 <ul class="nav navbar-nav">
-                    <!-- <li class="nav-item">
-                        <a class="scroll nav-link link" href="#deal">Mega Deal</a>
-                    </li>
+                    
                     <li class="nav-item">
+                        <a class="scroll nav-link link" href="#food">Our Products</a>
+                    </li>
+                    <!-- <li class="nav-item">
                         <a class="scroll nav-link link" href="#blog">Our Blog</a>
                     </li> -->
                     <li class="nav-item">
@@ -110,16 +111,16 @@
                         <li class="nav-item">
                             <a class="nav-link link scroll" href="#booking">About Us</a>
                          </li>
-                        
+                         <li class="nav-item">
+                            <a class="nav-link link scroll" href="#cakes">Cakes</a>
+                        </li>
                         <li class="nav-item">
                            <a class="nav-link link scroll" href="#food">Our Products</a>
                         </li>
+                       
                         <!-- <li class="nav-item">
-                            <a class="nav-link link scroll" href="#deal">Mega Deal</a>
-                        </li>
-                        <li class="nav-item">
                            <a class="nav-link link scroll" href="#blog">Our Blog</a>
-                        </li> -->
+                        </li>  -->
                         <li class="nav-item">
                            <a class="nav-link link scroll" href="#contact">Contact Us</a>
                         </li>
@@ -225,7 +226,7 @@
 <!--end Our Menu-->
 
 <!--Delicious Food-->
-<section id="about">
+<section id="booking">
     <div class="container">
         <div class="row">
             <div class="col-12 col-md-6">
@@ -346,14 +347,14 @@
 <!--End Parallaex Sec-->
 
     <!--Booking sec-->
-    <section class="bg-light">
-        <div class="container">
+    <section class="bg-light" id="cakes">
+        <div class="container  cakeSection">
             <div class="row">
                 <div class="book-img-width">
                 <img src="food/img/dessert-homiesFoods.png" class="food-img2-before wow rollIn" data-wow-delay="300ms" alt="image">
                 </div>
                 <div class="book-img-width2">
-                <img src="food/img/cake-homiesFoods.png" class="food-img2-after wow rotateInDownRight" data-wow-delay="300ms" alt="image">
+                <img src="food/img/chocolatecake-homeisFoods.png" class="food-img2-after wow rotateInDownRight" data-wow-delay="300ms" alt="image">
                 </div>
                 <div class="col-lg-12 text-center">
                     <div class="zic-img">
@@ -558,7 +559,7 @@
     <!--End Gallery-->
 
     <!--Mega Deal-->
-    <section class="mega-deal bg-light" id="deal">
+    <section class="mega-deal bg-light" id="food">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center d-block m-auto">
@@ -816,9 +817,8 @@
 
     <!--Contact Section-->
 
-    <div id="google-map" class="bg-light map">
-    </div>
-    <section class="contact-us bg-light" id="contact">
+   
+    <!-- <section class="contact-us bg-light" id="contact">
 
         <div class="container">
             <div class="row pb-0">
@@ -832,7 +832,7 @@
                         <p class="contact-detail"><i class="fa fa-envelope-open contact-icon"></i> example@website.com</p>
                         <p class="contact-detail"><i class="fa fa-phone contact-icon"></i> Phone: +1-23-456789</p>
                     </div>
-                    </div>
+                    </div> -->
                 <!-- <div class="col-md-6">
                     <div class="book-table">
                         <h2 class="table-booking mb-30">Book a <span class="text-gradient"> Table</span></h2>
@@ -881,31 +881,38 @@
                         </div>
                     </form>
                 </div> -->
-                </div>
+                <!-- </div>
             </div>
-    </section>
+    </section> -->
 
     <!--End Contact Section-->
 
     <!--Footer-->
+    <section id="contact">
     <footer class="footer-sec">
         <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="footer-logo">
-                        <div class="logo-max">
-                        <a href="#home" class="logo link" title="logo">
-                            <img src="food/img/logo.png" alt="logo" title="Logo" class="logo-default">
-                        </a>
+            <div class="row footer-container">
+                <div class="col-md-6 col-12">
+                    <div class="contact">
+                        <h2 class="text-capitalize mb-30">Contact <span class="text-gradient"> Homies</span></h2>
+                        <div class="icon-flex">
+                        <p class="contact-detail maxi mb-3"><i class="fa fa-home contact-icon"></i> Malappuram , Kerala , Inida</p>
                         </div>
-                        <p class="footer-width pt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque dignissim viverra ultrices.</p>
-
+                        <p class="contact-detail"><i class="fa fa-clock contact-icon"></i> Tuesday-Monday: 9:00am-6:00pm</p>
+                        <p class="contact-detail"><i class="fa fa-envelope-open contact-icon"></i> example@website.com</p>
+                        <p class="contact-detail"><i class="fa fa-phone contact-icon"></i> Phone: +1-23-456789</p>
+                    </div>
+                    </div>
+              
+                <div class="col-md-6 col-12">
+                    <div id="google-map" class="bg-light map">
                     </div>
                 </div>
-
-                <div class="col-md-6 col-sm-12 justify-content-end d-flex">
+         </div>
+        </div>
+                <div class="col-12 justify-content-center d-flex footer-paragraph">
                     <div class="footer-para">
-                        <div class="contact-social-icon pb-20">
+                        <div class="contact-social-icon ">
                             <ul class="social-icons mb-0">
                                 <li><a href="#." class="facebook-bg-hvr"><i class="fab fa-facebook-f" aria-hidden="true"></i></a> </li>
                                 <li><a href="#." class="twitter-bg-hvr"><i class="fab fa-twitter" aria-hidden="true"></i></a> </li>
@@ -913,12 +920,13 @@
                                 <li><a href="#." class="instagram-bg-hvr"><i class="fab fa-instagram" aria-hidden="true"></i></a> </li>
                             </ul>
                         </div>
-                        <p class="copyright-para">© 2024 Homies. All rights reserved</p>
+                        <p class="copyright-para text-white">© 2024 Homies. All rights reserved</p>
                     </div>
                 </div>
-            </div>
+            
         </div>
     </footer>
+</section>
     <!--End Footer-->
 
     <!--G0 Top-->

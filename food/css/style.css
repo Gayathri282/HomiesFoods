@@ -521,7 +521,7 @@ h6{
 .header-appear .navbar-top-default {
     height: 75px;
     position: fixed;
-    background: #e78e01;
+    background: #ff5606;
     -webkit-animation-name: animationFade;
     -o-animation-name: animationFade;
     animation-name: animationFade;
@@ -874,7 +874,7 @@ h6{
 }
 
 .image-about {
-    top: 30px;
+    top: 60px;
     margin-left: 22px;
     margin-bottom: -145px;
 }
@@ -1891,7 +1891,7 @@ input:focus .m-label{
 /*Footer Sec*/
 
 .footer-sec{
-    padding: 7.5rem 0;
+    padding: 1.5rem 0;
 }
 
 .footer-para{
@@ -3087,6 +3087,7 @@ form.findus textarea {
 
         .copyright-para{
             text-align: center;
+            color: #fff;
         }
 
         .feature-para {
@@ -3502,3 +3503,26 @@ form.findus textarea {
     color: wheat;
     border-radius: 10px;
 } */
+#contact{
+    padding: 0;
+}
+.footer-container{
+    display: flex;
+}
+.footer-paragraph{
+    background-color: #ff5606;
+   position: absolute;
+   bottom: 0;
+   padding-bottom: 10px;
+}
+.footer-sec>.container{
+    margin-bottom: 107px;
+}
+.fab{
+    color: #fff;
+}
+.cakeSection{
+    border-radius: 10px;
+    background: #fad496;
+    padding-bottom: 15px;
+}

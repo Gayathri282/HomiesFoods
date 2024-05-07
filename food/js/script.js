@@ -461,7 +461,7 @@ $(".counter").appear(function () {
         dots: false,
         nav: true,
         autoplay: true,
-        smartSpeed:500,
+        smartSpeed:300,
         autoplayHoverPause:true,
         loop:true,
 
